@@ -3,8 +3,8 @@ rodadas = 3
 for i in range(rodadas):
     while True:
         entrada = input(f"Rodada {i+1}: Digite os pontos ganhos ou 'pular': ")
-    if entrada == 'pular':
-        print("Rodada pulada.")
+        if entrada == 'pular':
+         print("Rodada pulada.")
         break
 
 else:
